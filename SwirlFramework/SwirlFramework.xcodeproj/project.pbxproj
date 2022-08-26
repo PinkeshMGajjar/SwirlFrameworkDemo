@@ -48,7 +48,6 @@
 		C8CC65E428A235D600DBFFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC65E328A235D600DBFFA9 /* SceneDelegate.swift */; };
 		C8CC65E728A2803E00DBFFA9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC65E628A2803E00DBFFA9 /* Comment.swift */; };
 		C8CC65EA28A2838F00DBFFA9 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC65E928A2838F00DBFFA9 /* CommentCell.swift */; };
-		C8D971F228A37FF300670BE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8D971F128A37FF300670BE6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -342,7 +341,6 @@
 				C83A95CE28AE4CA800516AB0 /* thumbnail.jpg in Resources */,
 				C8AFF86328A1311E004EB2E5 /* Assets.xcassets in Resources */,
 				C89F61A628A0F4D200112341 /* Main.storyboard in Resources */,
-				C8D971F228A37FF300670BE6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
