@@ -14,8 +14,5 @@ target 'SwirlFramework' do
   pod 'ObjectMapper', '~> 3.4'
   pod 'OTPTextField'
   pod 'Firebase/Firestore'
-  pod 'FirebaseFirestoreSwift'
-  pod 'Firebase/Messaging'
-  pod 'Firebase/InAppMessaging'
 
 end
