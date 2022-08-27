@@ -614,13 +614,8 @@ PODS:
   - Firebase/Messaging (9.1.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 9.1.0)
-  - Firebase/Storage (9.1.0):
-    - Firebase/CoreOnly
-    - FirebaseStorage (~> 9.1.0)
   - FirebaseABTesting (9.1.0):
     - FirebaseCore (~> 9.0)
-  - FirebaseAppCheckInterop (9.1.0)
-  - FirebaseAuthInterop (9.1.0)
   - FirebaseCore (9.1.0):
     - FirebaseCoreDiagnostics (~> 9.0)
     - FirebaseCoreInternal (~> 9.0)
@@ -631,8 +626,6 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - GoogleUtilities/Logger (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - FirebaseCoreExtension (9.1.0):
-    - FirebaseCore (~> 9.0)
   - FirebaseCoreInternal (9.1.0):
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
   - FirebaseFirestore (9.1.0):
@@ -670,15 +663,6 @@ PODS:
     - GoogleUtilities/Reachability (~> 7.7)
     - GoogleUtilities/UserDefaults (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - FirebaseStorage (9.1.0):
-    - FirebaseAppCheckInterop (~> 9.0)
-    - FirebaseAuthInterop (~> 9.0)
-    - FirebaseCore (~> 9.0)
-    - FirebaseCoreExtension (~> 9.0)
-    - FirebaseStorageInternal (~> 9.0)
-  - FirebaseStorageInternal (9.1.0):
-    - FirebaseCore (~> 9.0)
-    - GTMSessionFetcher/Core (< 3.0, >= 1.7)
   - GoogleDataTransport (9.1.4):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
@@ -751,7 +735,6 @@ PODS:
     - gRPC-Core/Interface (= 1.44.0)
     - Libuv-gRPC (= 0.0.10)
   - gRPC-Core/Interface (1.44.0)
-  - GTMSessionFetcher/Core (2.0.0)
   - IQKeyboardManagerSwift (6.5.10)
   - leveldb-library (1.22.1)
   - Libuv-gRPC (0.0.10):
@@ -779,7 +762,6 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/InAppMessaging
   - Firebase/Messaging
-  - Firebase/Storage
   - FirebaseFirestoreSwift
   - IQKeyboardManagerSwift
   - ObjectMapper (~> 3.4)
@@ -795,24 +777,18 @@ SPEC REPOS:
     - BoringSSL-GRPC
     - Firebase
     - FirebaseABTesting
-    - FirebaseAppCheckInterop
-    - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseCoreDiagnostics
-    - FirebaseCoreExtension
     - FirebaseCoreInternal
     - FirebaseFirestore
     - FirebaseFirestoreSwift
     - FirebaseInAppMessaging
     - FirebaseInstallations
     - FirebaseMessaging
-    - FirebaseStorage
-    - FirebaseStorageInternal
     - GoogleDataTransport
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
-    - GTMSessionFetcher
     - IQKeyboardManagerSwift
     - leveldb-library
     - Libuv-gRPC
@@ -830,24 +806,18 @@ SPEC CHECKSUMS:
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
   Firebase: 91c243d75573ac6e7c9735ec859b72bffb61347d
   FirebaseABTesting: 0573c1477dd2fb8204a1d317f8968ea171c6dccc
-  FirebaseAppCheckInterop: 39f963659691a896a4f16065c00183f128ab5d46
-  FirebaseAuthInterop: 81e0af3efc37bde8f58807d5f8e50f40ef18d275
   FirebaseCore: b7bfc258e996eada23b3666bd6b9a22ca092acb8
   FirebaseCoreDiagnostics: 2dabba3412b23b524823325739f45e520f67d1e7
-  FirebaseCoreExtension: c2efdc29b8ffeaa0be3e1bd1fc59758de9b3fe6d
   FirebaseCoreInternal: f3c838ae0b41cd840bbf34f90debfede78d352e5
   FirebaseFirestore: 20b1df7d65058b038745ecebb60f741a10e40a6f
   FirebaseFirestoreSwift: 5d57539cec470bf3c9a752db009ff7e9d1a77d09
   FirebaseInAppMessaging: 1bd91486b517b61354eedffae12b0d6d45bfe8bb
   FirebaseInstallations: a91c74276b544524ce144c8315d8cdbce2dbe30b
   FirebaseMessaging: 0bf5caa621182ccc66ba3be3b15e68d800d98e9f
-  FirebaseStorage: 1706d112a8a9d39f3b5465d00a0cb75725f16f63
-  FirebaseStorageInternal: d0e5482946dd483dbb2f6a76ef5750b9b5907049
   GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   "gRPC-C++": 9675f953ace2b3de7c506039d77be1f2e77a8db2
   gRPC-Core: 943e491cb0d45598b0b0eb9e910c88080369290b
-  GTMSessionFetcher: 681175626052e03fdde7952f7e9c7a9785719506
   IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   Libuv-gRPC: 55e51798e14ef436ad9bc45d12d43b77b49df378
@@ -859,6 +829,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   TTGSnackbar: fea91c62637b5662f808a4c3b55f7631cb7e1ef7
 
-PODFILE CHECKSUM: 59173c2f4097d7d95c2313090a19bca534334990
+PODFILE CHECKSUM: 384c58bfa2c313a53db8bf3699485c042f24753f
 
 COCOAPODS: 1.11.3

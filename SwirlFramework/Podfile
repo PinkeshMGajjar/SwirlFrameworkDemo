@@ -17,6 +17,5 @@ target 'SwirlFramework' do
   pod 'FirebaseFirestoreSwift'
   pod 'Firebase/Messaging'
   pod 'Firebase/InAppMessaging'
-  pod 'Firebase/Storage'
 
 end

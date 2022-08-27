@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Pinkesh Gajjar" => "pinkeshmgajjar@gmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/PinkeshMGajjar/SwirlFramework.git", :tag => spec.version.to_s }
-  spec.source_files  = "SwirlFramework/**/*.{h,m,swift}"
+  spec.source_files  = "SwirlFramework/**/*.{swift}"
   
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
 
-  spec.static_framework = true
-  spec.dependency   'Alamofire'
-  spec.swift_version = "5"
+  # spec.static_framework = true
+  # spec.dependency   'Alamofire'
+  spec.swift_version = "5.0"
 end

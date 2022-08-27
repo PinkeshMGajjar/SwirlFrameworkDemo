@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173052858AD7E0337909FD67 /* Pods_SwirlFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E159E32E76FC75BD3211E57 /* Pods_SwirlFramework.framework */; };
 		C83625E428B4CE9C00272F9F /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83625E328B4CE9C00272F9F /* LiveStream.swift */; };
 		C89F619D28A0E97A00112341 /* SwirlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C89F619C28A0E97A00112341 /* SwirlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89F61A628A0F4D200112341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89F61A528A0F4D200112341 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		11285DAADAE83DFB54E51325 /* Pods-SwirlFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwirlFramework.debug.xcconfig"; path = "Target Support Files/Pods-SwirlFramework/Pods-SwirlFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		8E159E32E76FC75BD3211E57 /* Pods_SwirlFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwirlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83625E328B4CE9C00272F9F /* LiveStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
 		C89F619928A0E97A00112341 /* SwirlFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwirlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F619C28A0E97A00112341 /* SwirlFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwirlFramework.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173052858AD7E0337909FD67 /* Pods_SwirlFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +112,7 @@
 		00956C335C518D03E6815EF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E159E32E76FC75BD3211E57 /* Pods_SwirlFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
