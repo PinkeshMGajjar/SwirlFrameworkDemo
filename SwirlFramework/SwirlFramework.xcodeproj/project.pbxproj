@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C807DC8728AFA3E900484E85 /* photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C807DC8628AFA3E800484E85 /* photo.jpeg */; };
 		C83625E428B4CE9C00272F9F /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83625E328B4CE9C00272F9F /* LiveStream.swift */; };
-		C83A95CE28AE4CA800516AB0 /* thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C83A95CD28AE4CA800516AB0 /* thumbnail.jpg */; };
 		C89F619D28A0E97A00112341 /* SwirlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C89F619C28A0E97A00112341 /* SwirlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89F61A628A0F4D200112341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89F61A528A0F4D200112341 /* Main.storyboard */; };
 		C89F61AD28A1075A00112341 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F61A828A1075A00112341 /* DemoViewController.swift */; };
@@ -52,9 +50,7 @@
 
 /* Begin PBXFileReference section */
 		11285DAADAE83DFB54E51325 /* Pods-SwirlFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwirlFramework.debug.xcconfig"; path = "Target Support Files/Pods-SwirlFramework/Pods-SwirlFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		C807DC8628AFA3E800484E85 /* photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpeg; sourceTree = "<group>"; };
 		C83625E328B4CE9C00272F9F /* LiveStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
-		C83A95CD28AE4CA800516AB0 /* thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnail.jpg; sourceTree = "<group>"; };
 		C89F619928A0E97A00112341 /* SwirlFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwirlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F619C28A0E97A00112341 /* SwirlFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwirlFramework.h; sourceTree = "<group>"; };
 		C89F61A328A0F40B00112341 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,15 +122,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C802075B28B3A04700CD5EA1 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				C807DC8628AFA3E800484E85 /* photo.jpeg */,
-				C83A95CD28AE4CA800516AB0 /* thumbnail.jpg */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
 		C83A95C828AE1B0D00516AB0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +164,6 @@
 				C8CC65E028A2348500DBFFA9 /* Enums */,
 				C8CC65DB28A2324E00DBFFA9 /* IndicatorView */,
 				C8AFF86428A135AF004EB2E5 /* Tools */,
-				C802075B28B3A04700CD5EA1 /* Image */,
 				C89F619C28A0E97A00112341 /* SwirlFramework.h */,
 				C89F61A328A0F40B00112341 /* Info.plist */,
 				C89F61A528A0F4D200112341 /* Main.storyboard */,
@@ -337,8 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C807DC8728AFA3E900484E85 /* photo.jpeg in Resources */,
-				C83A95CE28AE4CA800516AB0 /* thumbnail.jpg in Resources */,
 				C8AFF86328A1311E004EB2E5 /* Assets.xcassets in Resources */,
 				C89F61A628A0F4D200112341 /* Main.storyboard in Resources */,
 			);
